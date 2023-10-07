@@ -12,6 +12,7 @@ resource "proxmox_vm_qemu" "node_2" {
         cpu = "host"
         memory = 8096
         scsihw = "virtio-scsi-pci"
+        vmid = 301
 
         vga {
                 type = "std"
